@@ -13,21 +13,32 @@ console.log ('My full name is:' , fullName)
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
+let luckyNumber = 25
+console.log ('My lucky number is:', luckyNumber)
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
+//     Console log the value of `introduction`'
+//     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
+let introduction = 'My name is' + " " + fullName + ', and I think number' + " " + luckyNumber + " " + 'is a winner!'
+console.log (introduction)
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-
+let adventurous = true
+console.log (adventurous)
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'indian food!'
+console.log(food)
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 1 
+console.log (pets)
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
