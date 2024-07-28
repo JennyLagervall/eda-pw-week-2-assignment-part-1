@@ -13,7 +13,7 @@ console.log ('My full name is:' , fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 2;
+let luckyNumber = 3;
 console.log ('My lucky number is:', luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -73,11 +73,14 @@ console.log (result)
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 
-let diceRoll = 'Try again later.';
-if (luckyNumber == 2 && adventurous == true);{
-  diceRoll = 'Roll the dice!';}
+let diceRoll;
+if (luckyNumber == 2 && adventurous == true){
+  diceRoll = 'Roll the dice';
+} else {diceRoll = 'Try again later.'}
 
 console.log (diceRoll)
+
+
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -121,17 +124,31 @@ console.log (mostPets)
 //      console.log `luckyResult` after the conditional has run.
 
 
-console.log (this.luckyResult)
+const luckyResult = 'Third is the one with the polka dot dress';
+
+switch (luckyResult){
+  case '1':
+    console.log ('First is the worst');
+    break;
+  case '2':
+  console.log ('Second is the best');
+  break;
+  case '3':
+    console.log ('Third is the one with the polka dot dress');
+    break;
+  default:
+    console.log ('Luck is what happens when preparation meets opportunity');
+    break;
+}
+
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
+result = (adventurous = true) ? 'Adventures are great!' : 'How about we stay home?'
 
-
-
-
-
-
+console.log (result)
 
 
 
